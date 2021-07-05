@@ -1,18 +1,39 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url(subway.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .myapp {
+    color: white;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60px;
+    margin-top: 500px;
     text-align: center;
+    font-size: x-large;
+}
+#count-el {
+    color: teal;
 }
 
-button {
+#increment-btn{
+    background-color: red;
+    color: white;
+    border: none;
+    height: 30px;
+}
+#save-btn {
+    background-color: green;
     background-color: green;
     color: white;
+    border: none;
+    height: 30px;
+}
+#reset-btn {
+    background-color:yellow;
+    color: black;
     border: none;
     height: 30px;
 }
