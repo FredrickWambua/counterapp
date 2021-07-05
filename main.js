@@ -15,3 +15,7 @@ function increment(){
 function save(){
     console.log(count)
 }
+
+function reset() {
+    countEl.innerText = 0;
+}
