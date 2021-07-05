@@ -16,7 +16,7 @@ You are welcome to make any changes to this webpage by following this process:
 - The user is able to save the number of counts.
 - The user can reset the count to the initial number.
 ## Deployed live link
-To see how the project works, visit the deployment link [here](https://fredrickwambua.github.io/delanistudio/)
+To see how the project works, visit the deployment link [here](https://fredrickwambua.github.io/counterapp/)
 ## Technologies used
 - HTML5
 - CSS
