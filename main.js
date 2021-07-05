@@ -1,21 +1,23 @@
-// document.getElementById("count-el").innerText = console.log(count);
+// document.getElementById("count-el").textContent = console.log(count);
 // initializing a variable
 let count = 0;
-
-// assingning a variable to the HTML id
+let saveEl = document.getElementById("save-el")
 countEl = document.getElementById("count-el");
+console.log(saveEl)
 
 // increment function
 function increment(){
     count = count +=1;
-    countEl.innerText = count;
+    countEl.textContent = count;
 };
 
 // save function
 function save(){
-    console.log(count)
+    let theCount = count + " - "
+    saveEl.textContent += theCount
 }
 
 function reset() {
-    countEl.innerText = 0;
+    countEl.textContent = 0;
+    count = 0;
 }
