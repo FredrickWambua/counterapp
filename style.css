@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.myapp {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    text-align: center;
+}
+
