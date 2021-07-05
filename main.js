@@ -3,12 +3,10 @@
 let count = 0;
 
 // assingning a variable to the HTML id
-countEl = document.getElementById("count-el")
-console.log(countEl)
-console.log(countEl)
+countEl = document.getElementById("count-el");
 
 // increment function
 function increment(){
     count = count +=1;
-    console.log(count)
+    countEl.innerText = count;
 };
